@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script src="script.js"></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <a href="/">◀ Back</a>
+    <h2>🧩 Answers - Math Puzzle</h2>
+    <h4></h4>
+    <form onsubmit="adp('solve'); return false;">
+        <input type="text" value="">
+        <h3>&nbsp&nbsp&nbsp</h3>
+        <input type="text" value="">
+        <h3>&nbsp&nbsp&nbsp</h3>
+        <input type="text" value="">
+        &nbsp=&nbsp <input type="text" value="">
+        &nbsp&nbsp&nbsp<input class="btn" type="submit" value="Solve">
+    </form>
+    <script>
+        var errorelem = document.querySelector("h4");
+        errorelem.innerHTML = "Try 10, 4, 10, 25!";
+    </script>
+</body>
+
+</html>
